@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Caffe LaTrino</string>
-    <string name="makeCoffee">Make me a coffee</string>
+    <string name="makeCoffee">Tap to make coffee</string>
 </resources>
