@@ -12,6 +12,20 @@
     tools:context="com.walkap.caffelatrino.MainActivity"
     android:background="#FC615C">
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/java_play"
+        android:id="@+id/imageButton"
+        android:contentDescription="@string/makeCoffee"
+        android:layout_marginTop="145dp"
+        android:visibility="visible"
+        android:onClick="makeCoffee"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorAccent" />
+
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
@@ -21,15 +35,10 @@
         tools:ignore="HardcodedText"
         android:clickable="false"
         android:layout_below="@+id/imageButton"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textAllCaps="true" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/java_play"
-        android:id="@+id/imageButton"
-        android:contentDescription="@string/makeCoffee"
-        android:backgroundTint="@color/colorAccent"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
