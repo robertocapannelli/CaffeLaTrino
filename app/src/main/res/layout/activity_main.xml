@@ -18,26 +18,20 @@
         android:background="@drawable/java_play"
         android:id="@+id/imageButton"
         android:contentDescription="@string/makeCoffee"
-        android:layout_marginTop="145dp"
-        android:visibility="visible"
         android:onClick="makeCoffee"
         android:layout_centerHorizontal="true"
-        android:gravity="center"
+        android:layout_centerVertical="true"
         android:padding="0dp"/>
 
     <TextView
-        android:text="TextView"
+        android:text="@string/makeCoffee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        tools:text="@string/makeCoffee"
-        tools:ignore="HardcodedText"
         android:clickable="false"
         android:layout_below="@+id/imageButton"
         android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif"
         android:textSize="20sp"
         android:textAllCaps="true" />
-
 
 </RelativeLayout>
