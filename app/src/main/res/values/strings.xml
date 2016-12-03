@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Caffe LaTrino</string>
     <string name="makeCoffee">Tap to make coffee</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Go Back</string>
+    <string name="sugarSlider">How much sugar do you want in your coffee?</string>
+    <string name="forward">Go forward ></string>
+    <string name="reset" translatable="false">Reset</string>
 </resources>

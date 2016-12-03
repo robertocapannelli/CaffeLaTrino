@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">Caffe LaTrino</string>
     <string name="makeCoffee">Famme un caffe</string>
+    <string name="cancel">Cancella</string>
+    <string name="back">Indietro</string>
+    <string name="sugarSlider">Quanto zucchero vuoi?</string>
+    <string name="forward">Avanti ></string>
 </resources>
