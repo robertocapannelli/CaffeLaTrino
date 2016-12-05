@@ -5,6 +5,6 @@
     <string name="cancel">Cancella</string>
     <string name="back">Indietro</string>
     <string name="sugarSlider">Quanto zucchero vuoi?</string>
-    <string name="forward">Avanti ></string>
+    <string name="next">Avanti</string>
     <string name="american">Americano</string>
 </resources>

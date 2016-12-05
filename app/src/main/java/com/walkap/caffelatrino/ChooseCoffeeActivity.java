@@ -19,7 +19,6 @@ public class ChooseCoffeeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_choose_coffee);
     }
 
-    /*Called when button "Go" is pressed*/
     public void sendMessage(View view){
         Intent intent = new Intent(this, SugarSlider.class);
         radioCoffeeGroup = (RadioGroup) findViewById(R.id.radioCoffeeGroup);

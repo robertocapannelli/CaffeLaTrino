@@ -5,7 +5,7 @@
     <string name="cancel">Cancel</string>
     <string name="back">Go Back</string>
     <string name="sugarSlider">How much sugar do you want in your coffee?</string>
-    <string name="forward">Go forward ></string>
+    <string name="next">Next</string>
     <string name="reset" translatable="false">Reset</string>
     <string name="espresso" translatable="false">Espresso</string>
     <string name="cappuccino" translatable="false">Cappuccino</string>
