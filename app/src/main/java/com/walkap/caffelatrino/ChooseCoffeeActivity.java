@@ -11,7 +11,7 @@ public class ChooseCoffeeActivity extends AppCompatActivity {
 
     public RadioGroup radioCoffeeGroup;
     public RadioButton radioCoffeeButton;
-    public final static String EXTRA_MESSAGE = "com.example.caffelatrino.MESSAGE";
+    //public final static String EXTRA_COFFEE = "com.example.caffelatrino.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class ChooseCoffeeActivity extends AppCompatActivity {
         int selectedId = radioCoffeeGroup.getCheckedRadioButtonId();
         radioCoffeeButton = (RadioButton) findViewById(selectedId);
         String coffee = radioCoffeeButton.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, coffee);
+        intent.putExtra("extra_coffee", coffee);
         startActivity(intent);
     }
 }
