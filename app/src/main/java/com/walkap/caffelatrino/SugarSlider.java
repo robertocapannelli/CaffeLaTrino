@@ -37,15 +37,18 @@ public class SugarSlider extends AppCompatActivity implements OnSeekBarChangeLis
         value = progress;
     }
     @Override
-    public void onStartTrackingTouch(SeekBar slider) {
-    }
+    public void onStartTrackingTouch(SeekBar slider) {}
     @Override
-    public void onStopTrackingTouch(SeekBar slider) {
-    }
+    public void onStopTrackingTouch(SeekBar slider) {}
 
     public void sendMessage(View view){
         Intent intent = new Intent(this, AdditionActivity.class);
         String seekValue = "" + value;
+
+        Intent intent2 = getIntent();
+        String coffee = intent2.getStringExtra("extra_coffee");
+
+        intent.putExtra("extra_coffee", coffee);
         intent.putExtra("extra_sugar", seekValue);
         startActivity(intent);
     }
