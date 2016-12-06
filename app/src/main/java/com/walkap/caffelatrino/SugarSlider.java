@@ -21,7 +21,9 @@ public class SugarSlider extends AppCompatActivity implements OnSeekBarChangeLis
         Intent intent = getIntent();
         String coffee = intent.getStringExtra("extra_coffee");
         TextView tvCoffee = (TextView) findViewById(R.id.tvCoffee);
-        tvCoffee.setText("Coffee: " + coffee);
+        String coffeeString = getResources().getString(R.string.coffee);
+        String newString = coffeeString + ": " + coffee;
+        tvCoffee.setText(newString);
 
         slider = (SeekBar) findViewById(R.id.slider);
         slider.setMax(5);

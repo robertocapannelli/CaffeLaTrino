@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Caffe LaTrino</string>
-    <string name="makeCoffee">Famme un caffe</string>
+    <string name="makeCoffee">Famme un caffè</string>
     <string name="cancel">Cancella</string>
     <string name="back">Indietro</string>
     <string name="sugarSlider">Quanto zucchero vuoi?</string>
     <string name="next">Avanti</string>
     <string name="american">Americano</string>
+    <string name="coffee">Caffè</string>
+    <string name="sugar">Zucchero</string>
 </resources>

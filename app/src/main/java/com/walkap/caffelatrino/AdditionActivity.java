@@ -19,10 +19,15 @@ public class AdditionActivity extends AppCompatActivity {
         String coffee = intent.getStringExtra("extra_coffee");
 
         TextView tvSugar = (TextView) findViewById(R.id.tvSugar);
-        tvSugar.setText("Sugar: " + sugar);
+        String sugarString = getResources().getString(R.string.sugar);
+        String newSugarString = sugarString + ": " + sugar;
+        tvSugar.setText(newSugarString);
 
         TextView tvCoffee = (TextView) findViewById(R.id.tvCoffee);
-        tvCoffee.setText("Coffee: " + coffee);
+        String coffeeString = getResources().getString(R.string.coffee);
+        String newCoffeeString = coffeeString + ": " + coffee;
+        tvCoffee.setText(newCoffeeString);
+
 
     }
 }

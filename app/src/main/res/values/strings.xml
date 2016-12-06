@@ -10,4 +10,6 @@
     <string name="espresso" translatable="false">Espresso</string>
     <string name="cappuccino" translatable="false">Cappuccino</string>
     <string name="american">American</string>
+    <string name="coffee">Coffee</string>
+    <string name="sugar">Sugar</string>
 </resources>
