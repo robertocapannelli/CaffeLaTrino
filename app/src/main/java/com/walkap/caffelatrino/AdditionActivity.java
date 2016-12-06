@@ -6,9 +6,6 @@ import android.os.Bundle;
 
 import android.widget.TextView;
 
-//import static com.walkap.caffelatrino.ChooseCoffeeActivity.EXTRA_COFFEE;
-//import static com.walkap.caffelatrino.SugarSlider.EXTRA_SUGAR;
-
 public class AdditionActivity extends AppCompatActivity {
 
     @Override

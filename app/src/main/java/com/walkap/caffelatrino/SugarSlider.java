@@ -8,13 +8,10 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-//import static com.walkap.caffelatrino.ChooseCoffeeActivity.EXTRA_COFFEE;
-
 public class SugarSlider extends AppCompatActivity implements OnSeekBarChangeListener {
 
     public SeekBar slider;
     public int value;
-    //public final static String EXTRA_SUGAR = "com.example.caffelatrino.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

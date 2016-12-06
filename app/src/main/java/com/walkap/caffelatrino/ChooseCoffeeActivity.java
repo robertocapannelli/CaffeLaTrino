@@ -11,7 +11,6 @@ public class ChooseCoffeeActivity extends AppCompatActivity {
 
     public RadioGroup radioCoffeeGroup;
     public RadioButton radioCoffeeButton;
-    //public final static String EXTRA_COFFEE = "com.example.caffelatrino.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
